@@ -1,0 +1,386 @@
+
+<!-- "This is my first portfolio website, created using my frontend development skills in HTML, CSS, JavaScript,
+    with some help of AI. While it may have some mistakes and areas for improvement, but its ok. It’s a solid start 
+    toward building even better projects by me in the future." --> 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <link rel="shortcut icon"  href="img/profile/vishalpic.png" type="image/x-icon">
+</head>
+
+<body>
+
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#about">
+            <h1><span>V</span>ishal <span>M</span>ehra</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero"   data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="about">About</a></li>
+            <li><a href="#skills" data-after="skills">Skills</a></li>
+            <li><a href="#projects" data-after="projects">Projects</a></li>
+            <li><a href="#certificate" data-after="Certificates" >Certificates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hii, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1 class="vishal">Vishal Mehra<span></span></h1>
+        <a href="#hero" type="button" class="cta">Frontend Developer</a>
+        <!-- <h2>I am a <span id="changing-text"></span></h2>  Text that will change -->
+            <!-- <a href="#hero" type="button" class="cta">Frontend Developer</a> --> -->
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  
+  <section id="about">
+    <div class="about container">
+        <div class="col-left">
+            <div class="about-img">
+                <img src="./img/profile/vishal11.jpeg" alt="img">
+                <a href="#" class="cta">Download Resume</a> <!-- Moved button under image -->
+            </div>
+        </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>me</span></h1>
+            <h2>Front End Developer</h2>
+            <p>I am a web developer with a strong foundation in the latest front-end technologies and currently advancing my skills through a certification course in MERN stack development from AlmaBetter.com. My passion extends beyond coding to the world of business, where I enjoy learning and applying strategies that contribute to business growth and development.</p>
+            <p>As a creative thinker and content writer, I love to explore and share my interests. I am also a quick learner, born and raised in Rajasthan, India, and have completed my B.Tech from Rajasthan Technical University, Kota. My entrepreneurial spirit led me to create an e-commerce website for selling plants and nursery products from my uncle's shop, showcasing my skills in both web development and business.</p>
+            <div id="moreContent" class="hidden">
+                <p>I am a fresher B.Tech graduate, actively seeking opportunities to work in an environment where I can grow and learn more in my key fields of interest: business, web development, and software engineering. I am excited to contribute my skills while continuously expanding my knowledge in a professional setting.</p>
+                <p>Additionally, I am a nature lover with a personal passion for growing indoor plants and vegetables. This hands-on experience reflects my attention to detail and nurturing approach in everything I do, which has taught me patience and attention to detail—qualities I bring to every project.</p>
+            </div>
+            <a href="#" id="learnMoreBtn" class="cta">Learn More</a> <!-- Learn More button -->
+        </div>
+    </div>
+</section>
+
+
+  <section id="education" class="education-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <!-- Education 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>July 2024</h3>
+                        <h4>B.Tech in Computer Science</h4>
+                        <p><strong> Rajasthan Technical University, kota</strong> &nbsp; | &nbsp; CGPA: 7.5/10</p>
+                        <ul>
+                            <li>Introduction to computer programming with C and C++</li>
+                            <li>Frontend development: Creating Static web-pages using HTML, CSS & JS </li>
+                            <li>Basic knowledge of Engineering Subjects like Programming Fundamentals
+                              D.S.A., OOPs ,DBMS basics ,Computer Network ,Operating Systems </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <h3>June 2020</h3>
+                      <h4>10+2 in Science math ,RBSE</h4>
+                      <p><strong>Shri Gandhi Vidyalay , Gulabpura </strong> &nbsp; | &nbsp; Percentage: 75.20 %</p>
+                      <h3>June 2018</h3>
+                      <h4>10th , RBSE </h4>
+                      <p><strong> Sunrise Secondary School, Gulabpura </strong> &nbsp; | &nbsp; Percentage: 80.50%</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- End About Section -->
+  
+  
+  <!-- Skills Section -->
+   
+  <section id="skills">
+    <h2>Technical-Skills</h2>
+    <div class="skills-container">
+
+        <!-- Technology Card -->
+        <div class="skill-card">
+            <h3>Web Technologies</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/skill/html5.png" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/css3.png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/js.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/react.png" alt="JavaScript">
+                    <span>React</span>
+                </div>
+                <!-- Add more technologies -->
+            </div>
+        </div>
+
+        <!-- Languages Card -->
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="skills-list">
+              <div class="skill-item">
+                  <img src="img/skill/python.png" alt="Python">
+                  <span>Python</span>
+              </div>
+              <div class="skill-item">
+                  <img src="img/skill/sql.png" alt="SQL">
+                  <span>SQL</span>
+              </div>
+              <div class="skill-item">
+                  <img src="img/skill/c++.png" alt="C/C++">
+                  <span>C & C++</span>
+              </div>
+              <div class="skill-item">
+                  <img src="img/skill//js.png" alt="JavaScript">
+                  <span>JavaScript</span>
+              </div>
+              <!-- Add more languages -->
+          </div>
+      </div>
+
+        <!-- soft skills Card -->
+        <div class="skill-card">
+            <h3>Soft-Skills</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/skill/communication.jpg" alt="Git">
+                    <span>Good Communication </span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/teamwork.png" alt="teamwork">
+                    <span>Team Work</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/PS.jpg" alt="Problem-Solving">
+                    <span> Problem-Solving</span>
+                </div>
+                <!-- Add more tools -->
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3>Frameworks</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/skill/bootstrap.png" alt="bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/Tailwind.png" alt="tailwind css">
+                    <span>Tailwind CSS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/react.png" alt="React.js">
+                    <span>React.js</span>
+                </div>
+                <!-- Add more tools -->
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3>DataBase</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/skill/mongoDB.png" alt="mongoDB">
+                    <span>Mongo-DB</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/firebase.png" alt="firebase">
+                    <span>Firebase</span>
+                </div>
+               
+                <!-- Add more tools -->
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/skill/github.png" alt="Git">
+                    <span>Git & GitHub</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/vscode.png" alt="VS Code">
+                    <span>VS Code</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skill/cdev.png" alt="Dev-Tool">
+                    <span>Chrome-DevTools</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/skills images/git.png" alt="Dev-Tool">
+                    <span>git</span>
+                </div>
+                <!-- Add more tools -->
+            </div>
+        </div>  
+    </div>
+</section>
+
+  <!-- End Skills Section -->
+
+  <!-- Projects Section -->
+  
+  <section id="projects">
+    <h2>Recent Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="img/Projects/projectshoping.png" alt="Project 1 Image">
+            <h3>Clothing website</h3>
+            <p> Develop using Bootstrap features</p>
+            <div class="buttons">
+                <a href=" https://github.com/vishalmehra66/E-commerce-site-using-Bootstrap" target="_blank"  rel="noopener">Source Code</a>
+                <a href="https://vishalmehra66.github.io/E-commerce-site-using-Bootstrap/" target="_blank"  rel="noopener" >Live Preview</a>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <img src="img/Projects/projectfashion.png" alt="Project 2 Image">
+            <h3>Fashion.com</h3>
+            <p>Fashion website landing page</p>
+            <div class="buttons">
+                <a href="https://github.com/vishalmehra66/E-commerce-site-using-Bootstrap" target="_blank"  rel="noopener">Source Code</a>
+                <a href="https://vishalmehra66.github.io/E-commerce-site-using-Bootstrap/" target="_blank"   rel="noopener">Live Preview</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/Projects/project2.jpg" alt="Project 2 Image">
+            <h3>Project 2</h3>
+            <p>A brief description of your project goes here.</p>
+            <div class="buttons">
+                <a href="https://github.com/yourusername/project2" target="_blank"  rel="noopener" >Source Code</a>
+                <a href="https://yourliveprojectlink.com" target="_blank"   rel="noopener">Live Preview</a>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <img src="img/Projects/project4.jpg" alt="Project 2 Image">
+            <h3>Project 2</h3>
+            <p>A brief description of your project goes here.</p>
+            <div class="buttons">
+                <a href="https://github.com/yourusername/project2" target="_blank"  rel="noopener">Source Code</a>
+                <a href="https://yourliveprojectlink.com" target="_blank"   rel="noopener">Live Preview</a>
+            </div>
+        </div>
+
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+  <!-- End Projects Section -->
+
+<!-- Certificate Section  -->
+<section id="certificate"></section>
+<h2 class="section-title">Certificates</h2>
+<div class="Certificates">
+  <div class="certificate-slider">
+    <div class="slider-container">
+      <div class="slide active">
+        <img src="img/Certificate/certificate1.png" alt="Certificate 1">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate2.png" alt="Certificate 2">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate3.png" alt="Certificate 1">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate4.png" alt="Certificate 2">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate5.JPG" alt="Certificate 1">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate6.png" alt="Certificate 2">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate7.png" alt="Certificate 1">
+      </div>
+      <div class="slide">
+        <img src="img/Certificate/certificate8.png" alt="Certificate 2">
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Certificate section end -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>V</span>ishal <span>M</span>ehra</h1>
+      </div>
+      <h2>Frontend Developer & Business Strategist </h2>
+      <h3>Contact</h3>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="mailto:mrvishalbairwa66@gmail.com" target="_blank" title="E-mail"><img src="img/contact/mail.jpg"  alt ="E-mail"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/vishal-bairwa66/" target="_blank" rel="noopener" title="ln"><img src="img/contact/linkedin.png"   alt ="Linked-in"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"  title="gt"><img src="img/contact/github.png"  alt ="Git-Hub" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"  title="md"><img src="img/contact/medium.jpg"   alt ="Medium"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"  title="ig"><img src="img/contact/ig.jpg"   alt ="Instagram"/></a>
+        </div>
+      </div>
+      <p>Made with 🧡 By Vishal Mehra © 2024 </p>
+    </div>
+  </section>
+  <!-- End Footer -->
+<script src="script.js"></script>
+</body>
+
+</html>
