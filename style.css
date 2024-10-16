@@ -217,7 +217,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(img/profile/vishal12.jpg);
+	background-image: url(/img/profile/vishal12.jpg);
 	background-size: contain;
 	background-position: right;
 	background-repeat: no-repeat;
