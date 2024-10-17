@@ -36,6 +36,9 @@ nextBtn.addEventListener('click', () => {
     navList.classList.toggle('active');
   });
 
+  
+
+
 
   // Get the Learn More button and the hidden content
 const learnMoreBtn = document.getElementById("learnMoreBtn");
