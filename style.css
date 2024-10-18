@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden; /* Ruler ko chhupane ke liye */
+}
+
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
